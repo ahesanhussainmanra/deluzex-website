@@ -270,6 +270,12 @@ header {
   opacity: 0;
   transform: translateY(40px);
   animation: fadeUp 1s ease forwards;
+  font-size: 48px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 
+    0 0 10px rgba(255, 215, 0, 0.6),
+    0 0 20px rgba(255, 215, 0, 0.4);
 }
 
 .hero p {
@@ -286,16 +292,18 @@ header {
   }
 }
 .btn {
-  background: gold;
+  position: relative;
+  background: #FFD700;
   color: black;
   padding: 12px 25px;
-  border-radius: 5px;
+  border-radius: 6px;
+  overflow: hidden;
   transition: 0.3s;
 }
 
 .btn:hover {
-  box-shadow: 0 0 20px #FFD700, 0 0 40px #FFD700;
-  transform: scale(1.05);
+  box-shadow: 0 0 15px #FFD700, 0 0 30px #FFD700;
+  transform: translateY(-2px);
 }
 .product-card {
   transition: 0.3s;
@@ -336,4 +344,15 @@ nav a:hover {
   top: 20%;
   left: 30%;
   opacity: 0.2;
+}
+.hero {
+  background: linear-gradient(270deg, #000000, #1a1a1a, #2a2a2a);
+  background-size: 600% 600%;
+  animation: gradientMove 8s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
