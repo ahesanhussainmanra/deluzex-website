@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Arial;
     background: #d14c4c;
-    color: rgb(214, 208, 98);
+    color: rgb(121, 119, 76);
 }
 
 header {
@@ -21,7 +21,7 @@ nav a {
 .hero {
     text-align: center;
     padding: 100px;
-    background: linear-gradient(to right, #848d42, #333);
+    background: linear-gradient(to right, #4c4d3f, #333);
 }
 
 button {
@@ -61,7 +61,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background: rgb(188, 187, 103);
+    background: rgb(99, 99, 72);
 }
 
 nav a {
@@ -74,7 +74,7 @@ nav a {
 .hero {
     text-align: center;
     padding: 120px;
-    background: linear-gradient(to right, #000, #222);
+    background: linear-gradient(to right, #ad4949, #222);
 }
 
 .hero h2 {
