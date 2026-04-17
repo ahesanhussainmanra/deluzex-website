@@ -265,3 +265,40 @@ header {
     margin-left: 20px;
     font-size: 0.9rem;
 }
+.hero {
+  height: 100vh;
+  background: linear-gradient(to right, #000000, #1a1a1a);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.hero p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+.btn {
+  background: gold;
+  padding: 12px 25px;
+  text-decoration: none;
+  color: black;
+  border-radius: 5px;
+}
+.product-card {
+  backdrop-filter: blur(10px);
+  background: rgba(255,255,255,0.05);
+  border-radius: 15px;
+  transition: 0.3s;
+}
+.product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(255,255,255,0.2);
+}
+html {
+  scroll-behavior: smooth;
+}
