@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Arial;
     background: #d14c4c;
-    color: rgb(121, 119, 76);
+    color: rgb(214, 208, 98);
 }
 
 header {
@@ -21,7 +21,7 @@ nav a {
 .hero {
     text-align: center;
     padding: 100px;
-    background: linear-gradient(to right, #4c4d3f, #333);
+    background: linear-gradient(to right, #111, #333);
 }
 
 button {
@@ -61,7 +61,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background: rgb(120, 120, 95);
+    background: rgb(188, 187, 103);
 }
 
 nav a {
@@ -74,7 +74,7 @@ nav a {
 .hero {
     text-align: center;
     padding: 120px;
-    background: linear-gradient(to right, #544848, #222);
+    background: linear-gradient(to right, #000, #222);
 }
 
 .hero h2 {
@@ -151,7 +151,7 @@ nav a {
 /* Hero */
 .hero {
     text-align: center;
-    padding: 80px;
+    padding: 120px;
     background: linear-gradient(to right, #a0b46f, #222);
 }
 
@@ -264,28 +264,4 @@ header {
     text-decoration: none;
     margin-left: 20px;
     font-size: 0.9rem;
-}
-.hero {
-  height: 100vh;
-  background: linear-gradient(to right, #8a924a, #1a1a1a);
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.hero h1 {
-  font-size: 48px;
-  font-weight: bold;
-}
-.hero p {
-  margin: 10px 0;
-  font-size: 18px;
-}
-.btn {
-  background: gold;
-  padding: 12px 25px;
-  text-decoration: none;
-  color: black;
-  border-radius: 5px;
 }
