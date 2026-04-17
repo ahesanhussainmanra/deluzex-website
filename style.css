@@ -291,13 +291,13 @@ header {
 }
 .product-card {
   backdrop-filter: blur(10px);
-  background: rgba(255,255,255,0.05);
+  background: rgba(148, 171, 77, 0.05);
   border-radius: 15px;
   transition: 0.3s;
 }
 .product-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 10px 30px rgba(255,255,255,0.2);
+  box-shadow: 0 10px 30px rgba(53, 95, 97, 0.2);
 }
 html {
   scroll-behavior: smooth;
