@@ -61,7 +61,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background: rgb(99, 99, 72);
+    background: rgb(120, 120, 95);
 }
 
 nav a {
@@ -74,7 +74,7 @@ nav a {
 .hero {
     text-align: center;
     padding: 120px;
-    background: linear-gradient(to right, #ad4949, #222);
+    background: linear-gradient(to right, #544848, #222);
 }
 
 .hero h2 {
@@ -267,7 +267,7 @@ header {
 }
 .hero {
   height: 100vh;
-  background: linear-gradient(to right, #000000, #1a1a1a);
+  background: linear-gradient(to right, #8a924a, #1a1a1a);
   color: white;
   display: flex;
   flex-direction: column;
