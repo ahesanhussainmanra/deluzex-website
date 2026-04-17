@@ -356,3 +356,23 @@ nav a:hover {
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
 }
+.hero::after {
+  content: "";
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, #FFD700, transparent);
+  filter: blur(120px);
+  top: 20%;
+  left: 30%;
+  opacity: 0.2;
+}
+nav {
+  backdrop-filter: blur(10px);
+  background: rgba(0,0,0,0.6);
+}
+
+nav a:hover {
+  color: #FFD700;
+  text-shadow: 0 0 10px #FFD700;
+}
