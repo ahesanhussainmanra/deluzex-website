@@ -68,6 +68,7 @@ nav a {
     margin: 10px;
     color: white;
     text-decoration: none;
+    position: sticky;
 }
 
 /* Hero Section */
@@ -344,7 +345,7 @@ nav a:hover {
   opacity: 0.2;
 }
 .hero {
-  background: linear-gradient(270deg, #7c7c6b, #888858, #8c8e31);
+  background: linear-gradient(270deg, #7c7c6b, #747448, #565621);
   background-size: 600% 600%;
   animation: gradientMove 8s ease infinite;
 }
