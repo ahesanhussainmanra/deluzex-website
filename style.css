@@ -10,7 +10,6 @@ header {
     justify-content: space-between;
     padding: 20px;
     background: rgb(150, 185, 111);
-    position: sticky;
 }
 
 nav a {
