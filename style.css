@@ -9,7 +9,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background: rgb(150, 185, 111);
+    background: rgb(68, 68, 66);
     position: sticky;
 }
 
@@ -140,7 +140,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background: rgba(0,0,0,0.8);
+    background: rgba(72, 69, 69, 0.8);
     top: 0;
 }
 
