@@ -16,7 +16,6 @@ nav a {
     margin: 10px;
     color: white;
     text-decoration: none;
-    text-underline-position: auto rgb(124, 124, 76);
 }
 
 .hero {
@@ -369,11 +368,21 @@ nav a:hover {
   opacity: 0.2;
 }
 nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(0,0,0,0.7);
   backdrop-filter: blur(10px);
-  background: rgba(0,0,0,0.6);
+  padding: 15px 40px;
 }
 
 nav a:hover {
   color: #FFD700;
   text-shadow: 0 0 10px #FFD700;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  transition: 0.3s;
 }
