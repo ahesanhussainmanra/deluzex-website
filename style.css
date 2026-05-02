@@ -393,3 +393,29 @@ body {
   background-attachment: scroll;
   color: white;
 }
+.whatsapp, .instagram {
+  position: fixed;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  font-weight: bold;
+  z-index: 1000;
+}
+
+.whatsapp {
+  bottom: 80px;
+  background: #25D366;
+}
+
+.instagram {
+  bottom: 20px;
+  background: #E1306C;
+}
+
+.whatsapp:hover, .instagram:hover {
+  transform: scale(1.1);
+}
