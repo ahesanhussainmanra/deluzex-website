@@ -16,6 +16,7 @@ nav a {
     margin: 10px;
     color: white;
     text-decoration: none;
+    text-underline-position: auto rgb(124, 124, 76);
 }
 
 .hero {
