@@ -231,7 +231,6 @@ header {
     padding: 10px 30px;
     background-color: #000;
     color: #fff;
-    position: sticky; /* Taaki scroll karne par bhi upar dikhta rahe */
     top: 0;
     z-index: 1000;
 }
