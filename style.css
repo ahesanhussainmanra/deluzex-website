@@ -62,7 +62,6 @@ header {
     justify-content: space-between;
     padding: 20px;
     background: rgb(188, 187, 103);
-    position: sticky;
 }
 
 nav a {
@@ -345,7 +344,7 @@ nav a:hover {
   opacity: 0.2;
 }
 .hero {
-  background: linear-gradient(270deg, #6c6c5a, #474722, #2a2a2a);
+  background: linear-gradient(270deg, #7c7c6b, #888858, #8c8e31);
   background-size: 600% 600%;
   animation: gradientMove 8s ease infinite;
 }
